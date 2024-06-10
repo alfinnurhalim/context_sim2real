@@ -1,5 +1,6 @@
 
 # Sim-to-Real Transfer in Underwater Scene Analysis
+![3400](https://github.com/alfinnurhalim/context_sim2real/assets/44990448/02e38f6c-857d-4664-959f-97af8da8cfcd)
 
 ## Project Structure
 
@@ -22,13 +23,10 @@ cd context_sim2real
 ### 2. Download the Dataset
 - Download the dataset and place it in the `Dataset/` directory.
 
-### 3. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
+### 3. Edit The config file
 
 ## Training the Model
-To train the model, run the following command:
+To train the model, adjust the path in `train.py` the run the following command:
 ```bash
 python train.py
 ```
@@ -57,4 +55,4 @@ This project is based on the following research papers:
 - Zhang, Y., Huang, N., Tang, F., Huang, H., Ma, C., Dong, W., & Xu, C. (2022). Inversion-Based Style Transfer with Diffusion Models. ArXiv. /abs/2211.13203
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
