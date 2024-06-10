@@ -1,5 +1,5 @@
 
-# Sim-to-Real Transfer in Underwater Scene Analysis
+# Context-Preserving Domain Adaptation for Sim-to-Real Transfer in Underwater Scene Analysis
 ![3400](https://github.com/alfinnurhalim/context_sim2real/assets/44990448/02e38f6c-857d-4664-959f-97af8da8cfcd)
 
 ## Project Structure
@@ -41,7 +41,7 @@ python test.py
 Modify the configuration files in the `config/` directory to change training/testing parameters.
 
 ## Model Architecture
-The model architecture is defined in the `model/` directory. Most of the code related to model architecture is borrowed from the StyleFlow original repository. Additional code has been developed to match our objectives of sim-to-real transfer in underwater scenes.
+The model architecture is defined in the `model/` directory. Most of the code related to model architecture is borrowed from the StyleFlow original repository https://github.com/weepiess/StyleFlow-Content-Fixed-I2I . Additional code has been developed to match our objectives of sim-to-real transfer in underwater scenes.
 
 ## Results
 The results of the experiments, including metrics like SSIM and FID, will be saved in the appropriate directory specified in the configuration files.
